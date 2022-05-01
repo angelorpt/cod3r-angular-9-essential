@@ -31,3 +31,28 @@ npm start
 ng add @angular/material
 ```
 
+#### 2.3 component
+
+```bash
+ng generate component components/template/header
+#or
+ng g c components/template/header
+```
+
+#### 2.4 normalize.css
+
+```bash
+npm install --save normalize.css
+```
+
+```scss
+// frontend/src/styles.scss
+@import "~normalize.css";
+
+// ...
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+```
